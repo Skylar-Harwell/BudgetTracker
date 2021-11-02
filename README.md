@@ -14,7 +14,7 @@ A simple and easy to use Budget Tracker. Track expenses see real time data. This
 ---
 
 ## Installation
-The following dependencies are necssary and require installation to run the app: npm intall.
+The following dependencies are necssary and require installation to run the app: npm install.
 
 ## Usage
 In order to use the application, please run it in the Can be run from the command line using 'npm start' or throught the live link .
