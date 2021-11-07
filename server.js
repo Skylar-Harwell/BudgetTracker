@@ -7,6 +7,16 @@ const PORT = 3000;
 
 const app = express();
 
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/BudgetTracker',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
+
 app.use(logger("dev"));
 
 app.use(compression());
