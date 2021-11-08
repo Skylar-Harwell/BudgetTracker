@@ -7,8 +7,7 @@ const PORT = 3000;
 
 const app = express();
 
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/budget",
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/BudgetTracker",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
